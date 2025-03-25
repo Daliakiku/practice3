@@ -74,11 +74,13 @@ footer{
 a:link{
     color: #15161f;
     text-decoration: none;
+    font-style: bold;
 }
 
 a:visited{
     color: #15161f;
     text-decoration: none;
+    font-style: bold;
 }
 
 .fa-instagram{
