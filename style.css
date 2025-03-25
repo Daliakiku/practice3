@@ -3,8 +3,8 @@ header{
     font-size: 20px;
     color: #15161f;
     text-align: center;
-    position: sticky;
-    top: 10px;
+    position: relative;
+    top: 0px;
     background-color: rgb(233, 230, 227);
 
 }
@@ -16,16 +16,18 @@ body {
 p{
     color: #15161f;
     font-family: "nunito", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
     position: absolute;
     top: 50px;
+    margin-top: 100px;
+    font-style: light;
 }
 
 h1{
 
     font-family: "Chonburi", sans-serif;
-    font-size: 200%;
+    font-size: 300%;
     color: #15161f;
     text-align: left;
     position: relative;
@@ -34,12 +36,10 @@ h1{
 }
 
 footer{
-    text-align: center;
-    margin: 50px;
-    margin-bottom: 30px;
-    font-family: "nunito", sans-serif;
-    font-size: 20px;
-    font-style: normal;
+    position:relative;
+    bottom: -500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -66,18 +66,32 @@ a:link{
 }
 
 a:visited{
-    color: #808085;
+    color: #15161f;
     text-decoration: none;
 }
 
 .fa-instagram{
-    transform: scale(3);
     position: relative;
-    right: 30px;
+    left: 40px;
 }
 
 .fa-spotify{
-    transform: scale(3);
     position: relative;
-    left: 30px;
+    right: 40px;
+} 
+
+#socials{
+    transform: scale(3);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+
+#me{
+    float:right;
+    width: 40%;
+    margin-right: 70px;
+    margin-left: 30px;
+    clear: both;
+
 }
