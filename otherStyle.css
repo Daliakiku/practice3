@@ -9,3 +9,42 @@ h1{
     text-align: center;
     position: relative;
 }
+
+img{
+    width: 30%;
+    float: left;
+    margin: 100px;
+}
+
+header{
+    font-family: "nunito", sans-serif;
+    font-size: 20px;
+    color: #15161f;
+    text-align: center;
+    position: sticky;
+    top: 10px;
+    background-color: rgb(233, 230, 227);
+}
+
+#caption{
+    font-family: "nunito", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    position: relative;
+    right: 400px;
+}
+
+#home{
+    text-align: left;
+}
+
+a:link{
+    color: #15161f;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #808085;
+    text-decoration: none;
+}
