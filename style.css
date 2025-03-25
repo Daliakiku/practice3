@@ -17,7 +17,9 @@ p{
     color: #15161f;
     font-family: "nunito", sans-serif;
     font-size: 20px;
-    font-style: light;
+    font-style: italic;
+    position: absolute;
+    top: 50px;
 }
 
 h1{
@@ -66,4 +68,16 @@ a:link{
 a:visited{
     color: #808085;
     text-decoration: none;
+}
+
+.fa-instagram{
+    transform: scale(3);
+    position: relative;
+    right: 30px;
+}
+
+.fa-spotify{
+    transform: scale(3);
+    position: relative;
+    left: 30px;
 }

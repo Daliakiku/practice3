@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(233, 230, 227);
+}
+
+h1{
+    font-family: "Chonburi", sans-serif;
+    font-size: 200%;
+    color: #15161f;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
